@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/shapeShiftingDelegate/">
+    <file alias="Main.qml">E:/Projects_e/kenny_learn_qml2026/chapter4/shapeShiftingDelegate/Main.qml</file>
+    <file alias="ShapeShiftingDelegate.qml">E:/Projects_e/kenny_learn_qml2026/chapter4/shapeShiftingDelegate/ShapeShiftingDelegate.qml</file>
+  </qresource>
+</RCC>
+

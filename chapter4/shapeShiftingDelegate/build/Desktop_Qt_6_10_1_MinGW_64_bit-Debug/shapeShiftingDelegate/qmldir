@@ -1,0 +1,7 @@
+module shapeShiftingDelegate
+typeinfo appshapeShiftingDelegate.qmltypes
+prefer :/shapeShiftingDelegate/
+Main 1.0 Main.qml
+ShapeShiftingDelegate 1.0 ShapeShiftingDelegate.qml
+depends QtQuick
+

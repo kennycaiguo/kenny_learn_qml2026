@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/shapeShiftingDelegate/">
+    <file alias="res.qrc">E:/Projects_e/kenny_learn_qml2026/chapter4/shapeShiftingDelegate/res.qrc</file>
+  </qresource>
+</RCC>
+

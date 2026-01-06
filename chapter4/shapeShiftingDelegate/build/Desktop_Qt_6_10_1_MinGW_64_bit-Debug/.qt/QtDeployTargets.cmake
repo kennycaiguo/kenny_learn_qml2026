@@ -1,0 +1,3 @@
+set(__QT_DEPLOY_TARGET_appshapeShiftingDelegate_FILE E:/Projects_e/kenny_learn_qml2026/chapter4/shapeShiftingDelegate/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/appshapeShiftingDelegate.exe)
+set(__QT_DEPLOY_TARGET_appshapeShiftingDelegate_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_appshapeShiftingDelegate_RUNTIME_DLLS D:/programs/Qt/6.10.1/mingw_64/bin/Qt6Quick.dll;D:/programs/Qt/6.10.1/mingw_64/bin/Qt6OpenGL.dll;D:/programs/Qt/6.10.1/mingw_64/bin/Qt6Gui.dll;D:/programs/Qt/6.10.1/mingw_64/bin/Qt6QmlMeta.dll;D:/programs/Qt/6.10.1/mingw_64/bin/Qt6QmlModels.dll;D:/programs/Qt/6.10.1/mingw_64/bin/Qt6QmlWorkerScript.dll;D:/programs/Qt/6.10.1/mingw_64/bin/Qt6Qml.dll;D:/programs/Qt/6.10.1/mingw_64/bin/Qt6Network.dll;D:/programs/Qt/6.10.1/mingw_64/bin/Qt6Core.dll)
