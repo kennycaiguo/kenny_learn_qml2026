@@ -1,9 +1,0 @@
-<RCC>
-    <qresource prefix="/">
-        <file>images/earth.jpeg</file>
-        <file>images/jupiter.jpeg</file>
-        <file>images/mars.jpeg</file>
-        <file>images/mercury.jpeg</file>
-        <file>images/venus.jpeg</file>
-    </qresource>
-</RCC>
