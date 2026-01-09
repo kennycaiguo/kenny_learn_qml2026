@@ -15,5 +15,8 @@ Window {
     // TransformCanvasDemo{}
     // CompositionCanvasDemo{}
     // CompositionOperationCanvasDemo{}
-    ImageDataCanvasDemo{}
+    // ImageDataCanvasDemo{}
+    // CanvasPaintDemo{}
+    // CanvasSpiroGraphDemo{}
+    CanvasGlowLineDemo{}
 }
