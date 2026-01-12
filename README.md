@@ -24,11 +24,11 @@ Git usage
 1）初始化配置
 设置账号信息
 # 添加全局设置
-git config --global user.email "kennycai8888@outlook.com"
-git config --global user.name "kennycaiguo"
+git config --global user.email "kennycai8888@outlook.com" <br>
+git config --global user.name "kennycaiguo" <br>
 或者配置gitee
-git config --global user.name"guohuacai" // "username"是注册gitee时候的账户名
-git config --global user.email“kenny887@gmail.com" //"username@email.com "是注册gitee用的邮箱
+git config --global user.name"guohuacai" // "username"是注册gitee时候的账户名 <br>
+git config --global user.email“kenny887@gmail.com" //"username@email.com "是注册gitee用的邮箱 <br>
 
 2）在GitHub上面新建一个叫做git-test的仓库，此时只有一个readme文件
  
