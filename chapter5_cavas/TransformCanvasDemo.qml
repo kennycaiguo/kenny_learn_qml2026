@@ -24,5 +24,12 @@ Canvas {
         ctx.beginPath();
         ctx.rect(-20, -20, 40, 40);
         ctx.stroke();
+
+        ctx.rotate(Math.PI/3);
+        ctx.strokeStyle = "deeppink";
+        ctx.beginPath();
+        ctx.rect(-20, -20, 40, 40);
+        ctx.stroke();
+
     }
 }
