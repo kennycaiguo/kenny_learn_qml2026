@@ -5,4 +5,12 @@ Window {
     height: 480
     visible: true
     title: qsTr("Particle System")
+
+    // SimpleParticle{}
+    // RotationvariationParticle{}
+    // AngleDirectionParticle{}
+    // AngleDirectionParticle2{}
+    // PointDirectionParticle{}
+    // TargetDirectionParticle{}
+    ItemParticle{}
 }

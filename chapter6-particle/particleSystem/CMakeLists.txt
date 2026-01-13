@@ -4,6 +4,7 @@ project(particleSystem VERSION 0.1 LANGUAGES CXX)
 
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_AUTORCC ON)
 
 find_package(Qt6 REQUIRED COMPONENTS Quick)
 
@@ -17,6 +18,15 @@ qt_add_qml_module(appparticleSystem
     VERSION 1.0
     QML_FILES
         Main.qml
+        QML_FILES SimpleParticle.qml
+        RESOURCES res.qrc
+        QML_FILES Tracer.qml
+        QML_FILES RotationvariationParticle.qml
+        QML_FILES AngleDirectionParticle.qml
+        QML_FILES AngleDirectionParticle2.qml
+        QML_FILES PointDirectionParticle.qml
+        QML_FILES TargetDirectionParticle.qml
+        QML_FILES ItemParticle.qml
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
