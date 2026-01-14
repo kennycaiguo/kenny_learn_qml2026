@@ -41,4 +41,13 @@ Rectangle {
         }
     }
     // #endregion M1
+
+   Gravity{
+        anchors.horizontalCenter: parent.horizontalCenter
+        width: 240; height: 240
+        system: particleSystem
+        magnitude: 50
+        angle: 90
+        Tracer{}
+    }
 }

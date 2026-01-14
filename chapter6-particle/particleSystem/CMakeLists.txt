@@ -27,6 +27,13 @@ qt_add_qml_module(appparticleSystem
         QML_FILES PointDirectionParticle.qml
         QML_FILES TargetDirectionParticle.qml
         QML_FILES ItemParticle.qml
+        QML_FILES ItemParticle3.qml
+        QML_FILES ItemParticle2.qml
+        QML_FILES AgeDemo.qml
+        QML_FILES AttractorDemo.qml
+        QML_FILES FrictionDemo.qml
+        QML_FILES GravityDemo1.qml GravityDemo2.qml
+        QML_FILES TurbulenceDemo.qml
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

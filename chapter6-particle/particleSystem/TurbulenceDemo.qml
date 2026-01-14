@@ -40,5 +40,11 @@ Rectangle {
             magnitudeVariation: 50
         }
     }
+
     // #endregion M1
+    Turbulence{
+        anchors.horizontalCenter: parent.horizontalCenter
+        system: particleSystem
+
+    }
 }

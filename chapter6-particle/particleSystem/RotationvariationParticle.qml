@@ -17,8 +17,8 @@ Rectangle {
         system: particleSystem
         lifeSpan: 2500
         lifeSpanVariation: 500
-        size:  64
-        endSize: 32
+        size:  16
+        endSize: 48
 
     }
 

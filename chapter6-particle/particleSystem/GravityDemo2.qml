@@ -26,19 +26,29 @@ Rectangle {
     // #region M1
     Emitter {
         id: emitter
-        anchors.left: parent.left
-        anchors.verticalCenter: parent.verticalCenter
-        width: 1; height: 1
+        anchors.bottom: parent.bottom
+        anchors.horizontalCenter: parent.horizontalCenter
+        width: 1; height: 20
         system: particleSystem
+        emitRate: 40
         lifeSpan: 6400
         lifeSpanVariation: 400
         size: 32
         velocity: AngleDirection {
-            angle: 0 //0代表向右运动
-            angleVariation: 15
+            angle: -90
+            angleVariation: 25
             magnitude: 100
-            magnitudeVariation: 50
+            magnitudeVariation: 25
         }
     }
     // #endregion M1
+
+    Friction{
+        anchors.horizontalCenter: parent.horizontalCenter
+        width: 240; height: 120
+        system: particleSystem
+        factor: 0.8
+        threshold: 25
+        Tracer{}
+    }
 }

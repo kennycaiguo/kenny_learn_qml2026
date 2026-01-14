@@ -41,4 +41,13 @@ Rectangle {
         }
     }
     // #endregion M1
+    Age{
+        anchors.horizontalCenter: parent.horizontalCenter
+        width: 240;height: 120
+        system: particleSystem
+        advancePosition: true
+        lifeLeft: 1200
+        once: true
+        Tracer{}
+    }
 }

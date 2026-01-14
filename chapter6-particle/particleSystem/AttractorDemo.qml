@@ -41,4 +41,13 @@ Rectangle {
         }
     }
     // #endregion M1
+    Attractor{
+        anchors.horizontalCenter: parent.horizontalCenter
+        width: 160;height: 120
+        system: particleSystem
+        pointX: 0
+        pointY: 0
+        strength: 1.0
+        Tracer{}
+    }
 }

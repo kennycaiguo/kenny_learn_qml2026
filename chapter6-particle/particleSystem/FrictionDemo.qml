@@ -41,4 +41,13 @@ Rectangle {
         }
     }
     // #endregion M1
+
+    Friction{
+        anchors.horizontalCenter: parent.horizontalCenter
+        width: 240; height: 120
+        system: particleSystem
+        factor: 0.8
+        threshold: 25
+        Tracer{}
+    }
 }

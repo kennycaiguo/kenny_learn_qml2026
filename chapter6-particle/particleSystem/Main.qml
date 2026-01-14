@@ -12,5 +12,13 @@ Window {
     // AngleDirectionParticle2{}
     // PointDirectionParticle{}
     // TargetDirectionParticle{}
-    ItemParticle{}
+//     ItemParticle{}
+       // ItemParticle2{}
+
+       // AgeDemo{}
+    // AttractorDemo{}
+       // FrictionDemo{}
+    // GravityDemo1{}
+       // GravityDemo2{}
+     TurbulenceDemo{}
 }
