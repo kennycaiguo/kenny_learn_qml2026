@@ -11,5 +11,6 @@
         <file>assets/triangle_blue.png</file>
         <file>assets/triangle_green.png</file>
         <file>assets/triangle_red.png</file>
+        <file>assets/rocket.png</file>
     </qresource>
 </RCC>

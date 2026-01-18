@@ -1,9 +1,10 @@
+
 import QtQuick
 import QtQuick.Particles
 
 Rectangle {
     id: root
-    width: 580; height: 240
+    width: 480; height: 240
     color: "#1F1F1F"
 
     ParticleSystem {
@@ -23,32 +24,32 @@ Rectangle {
     }
 
 
-    // #region M1
+    // M1>>
     Emitter {
         id: emitter
-        anchors.bottom: parent.bottom
-        anchors.horizontalCenter: parent.horizontalCenter
-        width: 1; height: 20
+        anchors.left: parent.left
+        anchors.verticalCenter: parent.verticalCenter
+        width: 1; height: 1
         system: particleSystem
-        emitRate: 40
         lifeSpan: 6400
         lifeSpanVariation: 400
         size: 32
         velocity: AngleDirection {
-            angle: -90
-            angleVariation: 25
+            angle: 0
+            angleVariation: 15
             magnitude: 100
-            magnitudeVariation: 25
+            magnitudeVariation: 50
         }
     }
-    // #endregion M1
-
-    Gravity{
-         anchors.horizontalCenter: parent.horizontalCenter
-         width: 240; height: 240
-         system: particleSystem
-         magnitude: 50
-         angle: 90
-         Tracer{}
-     }
+    // <<M1
+    Wander{
+        anchors.horizontalCenter: parent.horizontalCenter
+        width: 240;height: 120
+        system: particleSystem
+        affectedParameter: Wander.Position
+        pace: 200 //每秒改变粒子y方向的位置200次
+        // yVariance: 240 //上下抖动
+        xVariance: 240 //左右抖动
+        Tracer{}
+    }
 }

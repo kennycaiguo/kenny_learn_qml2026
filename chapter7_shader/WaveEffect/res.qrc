@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>assets/coastline.jpg</file>
+        <file>wave.frag.qsb</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>assets/lighthouse.jpg</file>
+        <file>qsb/genie1.vert.qsb</file>
+        <file>qsb/genie2.vert.qsb</file>
+        <file>qsb/genie3.vert.qsb</file>
+        <file>qsb/genie4.vert.qsb</file>
+    </qresource>
+</RCC>

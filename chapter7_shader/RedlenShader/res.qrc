@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>redlens/red1.frag.qsb</file>
+        <file>redlens/red2.frag.qsb</file>
+        <file>redlens/red3.frag.qsb</file>
+        <file>assets/tulips.jpg</file>
+    </qresource>
+</RCC>

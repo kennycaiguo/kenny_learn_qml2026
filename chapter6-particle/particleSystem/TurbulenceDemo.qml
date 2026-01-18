@@ -45,6 +45,8 @@ Rectangle {
     Turbulence{
         anchors.horizontalCenter: parent.horizontalCenter
         system: particleSystem
-
+        width: 240;height: 120
+        strength: 100
+        Tracer{}
     }
 }

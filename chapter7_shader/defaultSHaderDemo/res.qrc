@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>assets/background.png</file>
+        <file>assets/background@2x.png</file>
+        <file>assets/bug.jpg</file>
+        <file>assets/butterfly.png</file>
+        <file>assets/coastline.jpg</file>
+        <file>assets/fabric.png</file>
+        <file>assets/fabric@2x.png</file>
+        <file>assets/lighthouse.jpg</file>
+        <file>assets/longroad.jpg</file>
+        <file>assets/tulips.jpg</file>
+        <file>default/default.frag.qsb</file>
+        <file>default/default.vert.qsb</file>
+    </qresource>
+</RCC>
