@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>assets/tulips.jpg</file>
+        <file>assets/bug.jpg</file>
+        <file>assets/butterfly.png</file>
+        <file>assets/checker.png</file>
+        <file>assets/fog.png</file>
+        <file>assets/glass_normal.png</file>
+    </qresource>
+</RCC>
