@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>media/trailer_400p.ogg</file>
+        <file>media/video.mp4</file>
+        <file>media/fmws.mp4</file>
+    </qresource>
+</RCC>
