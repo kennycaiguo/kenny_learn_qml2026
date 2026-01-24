@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>beep.wav</file>
+        <file>swosh.wav</file>
+    </qresource>
+</RCC>
