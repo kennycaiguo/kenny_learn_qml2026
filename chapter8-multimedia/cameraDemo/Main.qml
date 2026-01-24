@@ -7,6 +7,5 @@ Window {
     visible: true
     title: qsTr("Camera Demo")
 
-    // CameraDemo{}
     SimpleCam{}
 }
